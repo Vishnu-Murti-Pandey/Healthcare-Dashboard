@@ -1,0 +1,137 @@
+.calendar {
+  border-radius: 12px;
+}
+.calendar h4 {
+  color: #010378;
+  padding-left: 20px;
+}
+.calCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrowFill {
+  display: flex;
+  gap: 8px;
+  padding-right: 20px;
+}
+.schedule {
+  display: flex;
+  padding: 20px 10px;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.dayColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 4rem;
+}
+
+.day {
+  font-size: 14px;
+  color: #010378;
+}
+
+.date {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #010378;
+  font-weight: 600;
+}
+
+.times {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.time {
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #010378;
+}
+
+.activeTime {
+  background: #010378;
+  color: #fff;
+  font-weight: 600;
+}
+
+.highlightTime {
+  background: #010378;
+  color: #fff;
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px 12px;
+}
+
+.rangeTime {
+  background: #010378;
+  color: #fff;
+  opacity: 0.3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px 12px;
+}
+.cardContainerDen {
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 1rem;
+}
+
+.cardDen {
+  padding: 1rem;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 200px;
+}
+
+.dentist {
+  background-color: #010378;;
+}
+
+.physio {
+  background-color: #f0f0ff;
+  color: #000;
+  flex-grow: 1;
+}
+
+.titleDen {
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.timeTask {
+  font-size: 0.9rem;
+  color: #FFF;
+}
+
+.timeTaskApp {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.doctor {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.emoji {
+  font-size: 1.2rem;
+}

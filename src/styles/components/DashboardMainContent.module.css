@@ -1,0 +1,26 @@
+.dashboardMain {
+    background-color: #eaf7ff;
+    border-radius: 0px 20px 20px 0px;
+    height: max-content;
+    margin-right: 14px;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: flex-end;
+  padding-right: 48px;
+  padding-bottom: 12px;
+}
+.avatar {
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+}
+.addBtn {
+  background: #010378;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
