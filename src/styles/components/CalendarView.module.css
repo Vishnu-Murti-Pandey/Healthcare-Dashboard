@@ -18,7 +18,6 @@
 .schedule {
   display: flex;
   padding: 20px 10px;
-  gap: 10px;
   overflow-x: auto;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .day {
-  font-size: 14px;
+  font-size: 10px;
   color: #010378;
 }
 

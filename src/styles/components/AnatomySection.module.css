@@ -1,5 +1,4 @@
 .anatomy {
-  position: relative;
   border-radius: 20px;
   background-color: #eaf7ff;
 }
@@ -8,17 +7,20 @@
 }
 .label {
   position: absolute;
-  background: #5e70dd;
-  color: white;
-  padding: 4px 8px;
+  padding: 8px 12px;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: 600;
 }
 .heart {
   top: 20%;
-  left: 40%;
+  left: 35%;
+  background: #422ede;
+  color: #FFF;
 }
 .leg {
-  bottom: 10%;
-  left: 30%;
+  bottom: 30%;
+  left: 4%;
+  background: #24baf1;
+  color: #3220f9;
 }

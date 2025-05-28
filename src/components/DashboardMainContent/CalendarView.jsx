@@ -32,6 +32,7 @@ const CalendarView = () => {
       date: 31,
       times: ["09:00", "10:00", "11:00"],
       range: ["12:00", "09:00"],
+      disable: true,
     },
   ];
 
@@ -47,7 +48,7 @@ const CalendarView = () => {
       <div className={styles.schedule}>
         {days.map(
           (
-            { day, date, times, active, highlight, range, colActive },
+            { day, date, times, active, highlight, range, colActive, disable },
             index
           ) => (
             <div
@@ -56,15 +57,26 @@ const CalendarView = () => {
               style={{
                 backgroundColor: colActive ? "#c8e7fa" : "none",
                 borderRadius: colActive ? "10px" : "0px",
-                padding: colActive ? "10px 6px": "10px 0px",
+                padding: colActive ? "10px 6px" : "10px 0px",
               }}
             >
-              <div className={styles.day}>{day}</div>
-              <div className={styles.date}>{date}</div>
+              <div
+                className={styles.day}
+                style={{ opacity: disable ? "0.3" : "1" }}
+              >
+                {day}
+              </div>
+              <div
+                className={styles.date}
+                style={{ opacity: disable ? "0.3" : "1" }}
+              >
+                {date}
+              </div>
               <div className={styles.times}>
                 {times.map((time, idx) => (
                   <div
                     key={idx}
+                    style={{ opacity: disable ? "0.3" : "" }}
                     className={`${styles.time} 
                     ${active === time ? styles.activeTime : ""} 
                     ${highlight === time ? styles.highlightTime : ""} 
