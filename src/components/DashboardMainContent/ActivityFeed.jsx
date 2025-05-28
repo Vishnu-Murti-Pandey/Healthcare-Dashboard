@@ -12,33 +12,83 @@ const ActivityFeed = () => (
       <div className={styles.day}>
         <div className={styles.bars}>
           <div
-            className={`${styles.bar} ${styles.cyan}`}
-            style={{ height: "40px" }}
+            className={`${styles.bar} ${styles.gray}`}
+            style={{ height: "80px" }}
           ></div>
+          <div
+            className={`${styles.bar} ${styles.cyan}`}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
+          ></div>
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
           <div
             className={`${styles.bar} ${styles.gray}`}
             style={{ height: "30px" }}
           ></div>
           <div
-            className={`${styles.bar} ${styles.indigo}`}
-            style={{ height: "50px" }}
-          ></div>
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.cyan}`}
+              style={{ height: "30px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.indigo}`}
+              style={{ height: "40px" }}
+            ></div>
+          </div>
         </div>
         <div className={styles.dayLabel}>Mon</div>
       </div>
       <div className={styles.day}>
         <div className={styles.bars}>
           <div
+            className={`${styles.bar} ${styles.indigo}`}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
+          ></div>
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
+          <div
             className={`${styles.bar} ${styles.cyan}`}
-            style={{ height: "55px" }}
+            style={{ height: "30px" }}
           ></div>
           <div
             className={`${styles.bar} ${styles.gray}`}
-            style={{ height: "45px" }}
-          ></div>
-          <div
-            className={`${styles.bar} ${styles.indigo}`}
-            style={{ height: "35px" }}
+            style={{ height: "80px" }}
           ></div>
         </div>
         <div className={styles.dayLabel}>Tues</div>
@@ -47,12 +97,45 @@ const ActivityFeed = () => (
         <div className={styles.bars}>
           <div
             className={`${styles.bar} ${styles.gray}`}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
+          ></div>
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.cyan}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.indigo}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
+          <div
+            className={`${styles.bar} ${styles.indigo}`}
             style={{ height: "30px" }}
           ></div>
           <div
-            className={`${styles.bar} ${styles.cyan}`}
-            style={{ height: "25px" }}
-          ></div>
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "30px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "40px" }}
+            ></div>
+          </div>
         </div>
         <div className={styles.dayLabel}>Wed</div>
       </div>
@@ -61,15 +144,32 @@ const ActivityFeed = () => (
         <div className={styles.bars}>
           <div
             className={`${styles.bar} ${styles.cyan}`}
-            style={{ height: "35px" }}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
+          ></div>
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.cyan}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.indigo}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
+          <div
+            className={`${styles.bar} ${styles.gray}`}
+            style={{ height: "30px" }}
           ></div>
           <div
             className={`${styles.bar} ${styles.gray}`}
-            style={{ height: "45px" }}
-          ></div>
-          <div
-            className={`${styles.bar} ${styles.indigo}`}
-            style={{ height: "50px" }}
+            style={{ height: "80px" }}
           ></div>
         </div>
         <div className={styles.dayLabel}>Thurs</div>
@@ -78,17 +178,46 @@ const ActivityFeed = () => (
       <div className={styles.day}>
         <div className={styles.bars}>
           <div
-            className={`${styles.bar} ${styles.cyan}`}
-            style={{ height: "50px" }}
+            className={`${styles.bar} ${styles.indigo}`}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
           ></div>
           <div
-            className={`${styles.bar} ${styles.indigo}`}
-            style={{ height: "55px" }}
-          ></div>
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
           <div
             className={`${styles.bar} ${styles.gray}`}
-            style={{ height: "40px" }}
+            style={{ height: "30px" }}
           ></div>
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.cyan}`}
+              style={{ height: "30px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.indigo}`}
+              style={{ height: "40px" }}
+            ></div>
+          </div>
         </div>
         <div className={styles.dayLabel}>Fri</div>
       </div>
@@ -96,12 +225,33 @@ const ActivityFeed = () => (
       <div className={styles.day}>
         <div className={styles.bars}>
           <div
-            className={`${styles.bar} ${styles.indigo}`}
-            style={{ height: "45px" }}
+            className={`${styles.bar} ${styles.cyan}`}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
           ></div>
           <div
-            className={`${styles.bar} ${styles.cyan}`}
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
+          <div
+            className={`${styles.bar} ${styles.indigo}`}
             style={{ height: "30px" }}
+          ></div>
+          <div
+            className={`${styles.bar} ${styles.gray}`}
+            style={{ height: "80px" }}
           ></div>
         </div>
         <div className={styles.dayLabel}>Sat</div>
@@ -110,17 +260,46 @@ const ActivityFeed = () => (
       <div className={styles.day}>
         <div className={styles.bars}>
           <div
-            className={`${styles.bar} ${styles.cyan}`}
-            style={{ height: "40px" }}
+            className={`${styles.bar} ${styles.gray}`}
+            style={{ height: "40px", display: "flex", alignSelf: "center" }}
           ></div>
           <div
-            className={`${styles.bar} ${styles.gray}`}
-            styles={{ height: "35px" }}
-          ></div>
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+              alignSelf: "center",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.cyan}`}
+              style={{ height: "20px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.indigo}`}
+              style={{ height: "20px" }}
+            ></div>
+          </div>
           <div
             className={`${styles.bar} ${styles.indigo}`}
             style={{ height: "30px" }}
           ></div>
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              flexDirection: "column",
+            }}
+          >
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "30px" }}
+            ></div>
+            <div
+              className={`${styles.bar} ${styles.gray}`}
+              style={{ height: "40px" }}
+            ></div>
+          </div>
         </div>
         <div className={styles.dayLabel}>Sun</div>
       </div>
